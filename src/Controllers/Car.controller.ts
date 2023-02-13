@@ -13,16 +13,3 @@ export default class CarController extends AbstractController<ICar> {
     );
   }
 }
-
-// private mountCarObj(): ICar {
-//   const car: ICar = {
-//     model: this.req.body.model,
-//     year: this.req.body.year,
-//     color: this.req.body.color,
-//     status: this.req.body.status,
-//     buyValue: this.req.body.buyValue,
-//     doorsQty: this.req.body.doorsQty,
-//     seatsQty: this.req.body.seatsQty,
-//   };
-//   return car;
-// }

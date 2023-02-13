@@ -67,26 +67,3 @@ export default abstract class AbstractController<T> {
     }
   }
 }
-
-// private mountObj(): ICar | IMotorcycle {
-//   if (this.type === 'Car') {
-//     return {
-//       model: this.req.body.model,
-//       year: this.req.body.year,
-//       color: this.req.body.color,
-//       status: this.req.body.status,
-//       buyValue: this.req.body.buyValue,
-//       doorsQty: this.req.body.doorsQty,
-//       seatsQty: this.req.body.seatsQty,
-//     };
-//   }
-//   return {
-//     model: this.req.body.model,
-//     year: this.req.body.year,
-//     color: this.req.body.color,
-//     status: this.req.body.status,
-//     buyValue: this.req.body.buyValue,
-//     category: this.req.body.category,
-//     engineCapacity: this.req.body.engineCapacity,
-//   };
-// }

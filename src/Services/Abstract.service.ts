@@ -1,9 +1,5 @@
-// import Car from '../Domains/Car';
-// import Motorcycle from '../Domains/Motorcycle';
 import Vehicle from '../Domains/Vehicle';
 import HttpException from '../Exceptions/HttpException';
-// import ICar from '../Interfaces/ICar';
-// import IMotorcycle from '../Interfaces/IMotorcycle';
 import AbstractODM from '../Models/AbstractODM';
 import VehicleFactory from '../Domains/VehicleFactory';
 
